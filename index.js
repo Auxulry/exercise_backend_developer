@@ -103,6 +103,6 @@ class Library {
   }
 }
 const lib = new Library(["Homo Sapiens", "Atomic"])
-console.log(lib.showbooks());
+lib.showbooks();
 lib.addBook(["Megalodon"]);
-console.log(lib.showbooks());
+lib.showbooks();
